@@ -14,27 +14,29 @@
 Hi, here are some rules to carry out this story oav;
 
 * You **MUST** create a git repository named `cross-pwgame`
-* You **MUST** create a file called `.author.json` with your fullname
+* You **MUST** create a file called `.author.json` with your team's fullname (3 people max)
 
 ```sh
 ~/cross-pwgame ❯❯❯ cat -e .author.json
 {
-  "fullname" : "Ken Thompson"
+  "fullname" : "Thompson",
+  "fullname" : "Stallman",
+  "fullname" : "Torvalds",
 }$
 ```
 
 > Of course, you can talk about the subject with other developers, peer-learning is
-> the key to be a better developer. Don't hesitate to ask questions or help people on slack.
+> the key to be a better developer. Don't hesitate to ask questions or help people on Teams.
 
 > Don't forget, there is no useless question :-)
 
-* You **MUST** return the project on Friday September, 11 at 11:42 pm by sending an MP on slack with the link of your github repo.
+* You **MUST** return the project on Tuesday June, 28 at 12:00 PM
 
 ## <a name='overview'>🐱 Overview</a>
 
-This project is about realtime gameS and **HAVE TO** be a **PWA**;<br />
+This project is about realtime gameS and **HAVE TO** be a React Native app <br />
 
-You **HAVE TO** use at least one **PWA** native features: `offline`, `notifications`, etc.
+You **HAVE TO** use at least one cool features from : `offline storage`, `notifications`, etc.
 
 You **CAN** use any ui.x libraries you want [ if interested, you can even create your own ]<br />
 You **CAN** use any front-end libraries you want but the back-end has to be written in Typescript with Node.js
